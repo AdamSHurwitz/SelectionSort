@@ -7,8 +7,6 @@ public class SelectionSort {
     static private final String LOG_TAG = SelectionSort.class.getSimpleName();
 
     static int[] array = {22, -1, 99, 88, 0, 7, 42};
-    //static int minValueIndex;
-    int minValue;
 
     public static void main(String[] arg) {
         sortArrayMethod(array);
