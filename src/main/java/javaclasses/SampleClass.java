@@ -22,7 +22,6 @@ public class SampleClass {
 
     public static int[] sortArrayMethod(int[] array) {
         int[] sortedArray = array;
-        //System.out.println("sortedArray.length - " + sortedArray.length);
 
         System.out.print("sortedArray - ");
         for (int x = 0; x < sortedArray.length; x++) {
