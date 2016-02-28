@@ -34,11 +34,6 @@ public class SampleClass {
             System.out.println("i - " + i + " swap(" + i + ","
                     + " findIndexofMinimum of " + findIndexOfMinimum(i) + ")");
             swap(i, findIndexOfMinimum(i));
-
-            /*System.out.println("start at - " + i + " findIndexOfMinimum - " +
-                    array[findIndexOfMinimum(i)]);
-            //minValueIndex = array[findIndexOfMinimum(i)];
-            swap(array[i], array[findIndexOfMinimum(i)]);*/
         }
         return sortedArray;
     }
@@ -46,15 +41,12 @@ public class SampleClass {
     public static int findIndexOfMinimum(int indexToStart) {
         int minValIndex = indexToStart;
         int minVal = array[indexToStart];
-        //System.out.println("minValIndex - " + indexToStart + " minVal - " + array[indexToStart]);
         for (int j = minValIndex; j < array.length; j++) {
-            // System.out.println("j - " + j);
             if (array[j] < minVal) {
                 minValIndex = j;
                 minVal = array[j];
             }
         }
-        //System.out.println("minValIndex - " + minValIndex);
         return minValIndex;
     }
 
