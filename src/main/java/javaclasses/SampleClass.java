@@ -17,7 +17,6 @@ public class SampleClass {
         for (int x = 0; x < array.length; x++) {
             System.out.print(array[x] + " | ");
         }
-
     }
 
     public static int[] sortArrayMethod(int[] array) {
