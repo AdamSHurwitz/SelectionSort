@@ -13,7 +13,7 @@ public class SampleClass {
     public static void main(String[] arg) {
         sortArrayMethod(array);
 
-        System.out.println("\nAnswer is: ");
+        System.out.print("\nAnswer is: ");
         for (int x = 0; x < array.length; x++) {
             System.out.print(array[x] + " | ");
         }
