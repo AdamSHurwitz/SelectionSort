@@ -11,7 +11,13 @@ public class SampleClass {
     int minValue;
 
     public static void main(String[] arg) {
-        System.out.println("Answer is: " + sortArrayMethod(array));
+        sortArrayMethod(array);
+
+        System.out.println("\nAnswer is: ");
+        for (int x = 0; x < array.length; x++) {
+            System.out.print(array[x] + " | ");
+        }
+
     }
 
     public static int[] sortArrayMethod(int[] array) {
