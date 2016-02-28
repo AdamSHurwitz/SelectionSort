@@ -6,7 +6,7 @@ package javaclasses;
 public class SampleClass {
     static private final String LOG_TAG = SampleClass.class.getSimpleName();
 
-    static int[] array = {22, 11, 99, 88, 9, 7, 42};
+    static int[] array = {22, -1, 99, 88, 0, 7, 42};
     //static int minValueIndex;
     int minValue;
 
