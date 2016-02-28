@@ -3,8 +3,8 @@ package javaclasses;
 /**
  * Created by adamhurwitz on 2/27/16.
  */
-public class SampleClass {
-    static private final String LOG_TAG = SampleClass.class.getSimpleName();
+public class SelectionSort {
+    static private final String LOG_TAG = SelectionSort.class.getSimpleName();
 
     static int[] array = {22, -1, 99, 88, 0, 7, 42};
     //static int minValueIndex;
